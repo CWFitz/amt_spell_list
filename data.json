@@ -1,15 +1,30 @@
-{"Entangle": [{"Class": [{"Druid": [{"Level": 1}
-                                    {"Cost": 1}
-                                    {"Max Purchases": 2}
-                                    {"Frequency" : "2 Balls/Unlimited"}]
-                          {"Healer": [{"Level": 2}
-                                    {"Cost": 1}
-                                    {"Max Purchases": 4}
-                                    {"Frequency" : "2 Balls/Unlimited"}]
-                          {"Wizard":  [{"Level": 2}
-                                    {"Cost": 1}
-                                    {"Max Purchases": 3}
-                                    {"Frequency" : "2 Balls/Unlimited"}]
-              {"Type": "Magic Ball"}
-              {"School": "Subual"}
-              {"Range": "Ball"}
+{
+  "spells": [
+    {
+      "name": "Entangle",
+      "type": "Magic Ball",
+      "school": "Subdual",
+      "range": "Ball",
+      "classes": {
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "2 Balls/Unlimited"
+        },
+        "healer": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": 4,
+          "frequency" : "2 Balls/Unlimited"
+        },
+        "wizard": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "2 Balls/Unlimited"
+        }
+      },
+    }
+  ]
+}
