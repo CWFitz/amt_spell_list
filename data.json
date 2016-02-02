@@ -5,6 +5,7 @@
       "type": "Magic Ball",
       "school": "Subdual",
       "range": "Ball",
+      "materials": "Brown Ball",
       "classes": {
         "druid": {
           "level": 1,
@@ -23,6 +24,205 @@
           "cost": 1,
           "max-purchases": 3,
           "frequency" : "2 Balls/Unlimited"
+        }
+      },
+    }
+    {
+      "name": "Barkskin",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "materials": "White Strip",
+      "classes": {
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1/Refresh"
+        }
+      },
+    }
+    {
+      "name": "Cancel",
+      "type": "Neutral",
+      "school": "Neutral",
+      "range": "Touch",
+      "classes": {
+        "bard":{
+          "level": 1,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "Unlimited"
+        },
+        "druid": {
+          "level": 1,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "Unlimited"
+        },
+        "healer": {
+          "level": 1,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "Unlimited"
+        },
+        "wizard":{
+          "level": 1,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "Unlimited"
+        }
+      },
+    }
+    {
+      "name": "Corrosive Mist",
+      "type": "Enchantment",
+      "school": "Death",
+      "range": "Self/Touch",
+      "materials": "5 Red Strips",
+      "classes": {
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": 1,
+          "frequency" : "-"
+        }
+      }
+    }
+    {
+      "name": "Equipment: Weapon, Short",
+      "type": "Neutral",
+      "school": "Neutral",
+      "range": "-",
+      "classes": {
+        "bard":{
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 2,
+          "frequency" : "-"
+        },
+        "druid": {
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 2,
+          "frequency" : "-"
+        },
+        "healer": {
+          "level": 1,
+          "cost": 3,
+          "max-purchases": 1,
+          "frequency" : "-"
+        },
+        "wizard":{
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 1,
+          "frequency" : "-"
+        }
+      },
+    }
+    {
+      "name": "Experienced",
+      "type": "Neutral",
+      "school": "Neutral",
+      "range": "-",
+      "classes": {
+        "bard":{
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 2,
+          "frequency" : "-"
+        },
+        "druid": {
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 2,
+          "frequency" : "-"
+        },
+        "healer": {
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 2,
+          "frequency" : "-"
+        },
+        "wizard":{
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 2,
+          "frequency" : "-"
+        }
+      },
+    }
+    {
+      "name": "Heat Weapon",
+      "type": "Verbal",
+      "school": "Flame",
+      "range": "20 feet",
+      "classes": {
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life Charge*3"
+        },
+        "wizard":{
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        }
+      },
+    }
+    {
+      "name": "Imbue Armor",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      },
+    }
+    {
+      "name": "Mend",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "archer": {
+          "level": 2,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency": "1/Life"
+          //may expand app to cover all classess//
+        },
+        "bard": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        },
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        },
+        "healer": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        },
+        "wizard":{
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
         }
       },
     }
