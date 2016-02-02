@@ -198,7 +198,6 @@
           "cost": 0,
           "max-purchases": 1,
           "frequency": "1/Life"
-          //may expand app to cover all classess//
         },
         "bard": {
           "level": 2,
