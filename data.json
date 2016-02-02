@@ -163,7 +163,7 @@
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
-          "frequency" : "1/Life Charge*3"
+          "frequency" : "1/Life charge*3"
         },
         "wizard":{
           "level": 1,
@@ -224,6 +224,222 @@
           "frequency" : "1/Life"
         }
       },
+    }
+    {
+      "name": "Equipment: Shield, Small",
+      "type": "Neutral",
+      "school": "Neutral",
+      "range": "-",
+      "classes": {
+        "bard": {
+          "level": 3,
+          "cost": 2,
+          "max-purchases": 1,
+          "frequency" : "-"
+        },
+        "druid": {
+          "level": 2,
+          "cost": 4,
+          "max-purchases": 1,
+          "frequency" : "-"
+        },
+        "healer": {
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 1,
+          "frequency" : "-"
+        }
+      },
+    }
+    {
+      "name": "Gift of Earth",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1/Refresh"
+        }
+      },
+    }
+    {
+      "name": "Heal",
+      "type": "Verbal",
+      "school": "Spirit",
+      "range": "Touch",
+      "classes": {
+        "monk":{
+          "level": 4,
+          "cost": 0,
+          "max-purchases": "-",
+          "frequency" : "Self-Only 1/Life"
+        },
+        "druid": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        },
+        "healer": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": 1,
+          "frequency" : "Unlimited"
+        },
+        "Paladin":{
+          "level": 1,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Refresh charge *3"
+        },
+        "scout":{
+          "level": 2,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Life"
+        }
+      }
+    }
+    {
+      "name": "Ice Ball",
+      "type": "Magic Ball",
+      "school": "Subdual",
+      "range": "Ball",
+      "materials": "White Ball",
+      "classes": {
+        "druid": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "2 Balls/Unlimited"
+        },
+        "healer": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "2 Balls/Unlimited"
+        },
+        "wizard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "2 Balls/Unlimited"
+        }
+      },
+    }
+    {
+      "name": "Innate",
+      "type": "Meta-Magic",
+      "school": "Neutral",
+      "range": "-",
+      "classes": {
+        "bard":{
+          "level": 1,
+          "cost": 1,
+          "max-purchases": 4,
+          "frequency" : "1/Refresh"
+        },
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": 4,
+          "frequency" : "1/Refresh"
+        },
+        "healer": {
+          "level": 1,
+          "cost": 2,
+          "max-purchases": 2,
+          "frequency" : "1/Life"
+        },
+        "wizard":{
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      },
+    }
+    {
+      "name": "Poison",
+      "type": "Enchantment",
+      "school": "Death",
+      "range": "Touch",
+      "materials": "Red Strip",
+      "classes": {
+        "druid": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": 4,
+          "frequency" : "1/Refresh"
+        },
+        "assassin": {
+          "level": 2,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Life charge*3"
+        },
+        "anti-paladin": {
+          "level": 2,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Refresh charge*3"
+        }
+      },
+    }
+    {
+      "name": "Release",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "bard": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Life"
+        },
+        "druid": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        },
+        "healer": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "2/Life charge*3"
+        },
+        "scout": {
+          "level": 2,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Life charge*3"
+        },
+        "wizard": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Life"
+        }
+      },
+    }
+    {
+      "name": "Stoneform",
+      "type": "Verbal",
+      "school": "Protection",
+      "range": "Self",
+      "classes": {
+        "druid": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh charge*3"
+        }
+      }
     }
   ]
 }
