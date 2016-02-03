@@ -25,8 +25,8 @@
           "max-purchases": 3,
           "frequency" : "2 Balls/Unlimited"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Barkskin",
       "type": "Enchantment",
@@ -40,8 +40,8 @@
           "max-purchases": 2,
           "frequency" : "1/Refresh"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Cancel",
       "type": "Neutral",
@@ -72,8 +72,8 @@
           "max-purchases": 1,
           "frequency" : "Unlimited"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Corrosive Mist",
       "type": "Enchantment",
@@ -88,7 +88,7 @@
           "frequency" : "-"
         }
       }
-    }
+    },
     {
       "name": "Equipment: Weapon, Short",
       "type": "Neutral",
@@ -119,8 +119,8 @@
           "max-purchases": 1,
           "frequency" : "-"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Experienced",
       "type": "Neutral",
@@ -151,8 +151,8 @@
           "max-purchases": 2,
           "frequency" : "-"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Heat Weapon",
       "type": "Verbal",
@@ -171,8 +171,8 @@
           "max-purchases": "-",
           "frequency" : "1/Life"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Imbue Armor",
       "type": "Enchantment",
@@ -185,8 +185,8 @@
           "max-purchases": "-",
           "frequency" : "1/Refresh"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Mend",
       "type": "Verbal",
@@ -223,8 +223,8 @@
           "max-purchases": "-",
           "frequency" : "1/Life"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Equipment: Shield, Small",
       "type": "Neutral",
@@ -249,8 +249,8 @@
           "max-purchases": 1,
           "frequency" : "-"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Gift of Earth",
       "type": "Enchantment",
@@ -303,7 +303,7 @@
           "frequency" : "1/Life"
         }
       }
-    }
+    },
     {
       "name": "Ice Ball",
       "type": "Magic Ball",
@@ -329,8 +329,8 @@
           "max-purchases": 3,
           "frequency" : "2 Balls/Unlimited"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Innate",
       "type": "Meta-Magic",
@@ -361,8 +361,8 @@
           "max-purchases": "-",
           "frequency" : "1/Refresh"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Poison",
       "type": "Enchantment",
@@ -388,8 +388,8 @@
           "max-purchases": 1,
           "frequency" : "1/Refresh charge*3"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Release",
       "type": "Verbal",
@@ -426,8 +426,8 @@
           "max-purchases": "-",
           "frequency": "1/Life"
         }
-      },
-    }
+      }
+    },
     {
       "name": "Stoneform",
       "type": "Verbal",
@@ -441,7 +441,7 @@
           "frequency" : "1/Refresh charge*3"
         }
       }
-    }
+    },
     {
       "name": "Attuned",
       "type": "Enchantment",
@@ -456,7 +456,7 @@
           "frequency" : "1/Refresh"
         }
       }
-    }
+    },
     {
       "name": "Bear Strength",
       "type": "Enchantment",
@@ -471,7 +471,7 @@
           "frequency" : "1/Refresh"
         }
       }
-    }
+    },
     {
       "name": "Dispel Magic",
       "type": "Verbal",
@@ -503,7 +503,7 @@
           "frequency": "1/Refresh charge*3"
         }
       }
-    }
+    },
     {
       "name": "Extension",
       "type": "Meta-Magic",
@@ -535,7 +535,7 @@
           "frequency" : "1/Life"
         }
       }
-    }
+    },
     {
       "name": "Gift of Fire",
       "type": "Enchantment",
