@@ -256,6 +256,7 @@
       "type": "Enchantment",
       "school": "Protection",
       "range": "Touch",
+      "materials": "White Strip",
       "classes": {
         "druid": {
           "level": 2,
@@ -446,6 +447,7 @@
       "type": "Enchantment",
       "school": "Sorcery",
       "range": "Touch",
+      "materials": "Yellow Strip",
       "classes": {
         "druid": {
           "level": 3,
@@ -460,6 +462,7 @@
       "type": "Enchantment",
       "school": "Sorcery",
       "range": "Touch",
+      "materials": "Red Strip",
       "classes": {
         "druid": {
           "level": 3,
@@ -538,6 +541,7 @@
       "type": "Enchantment",
       "school": "Flame",
       "range": "Touch",
+      "materials": "Red and White Strip",
       "classes": {
         "druid": {
           "level": 3,
