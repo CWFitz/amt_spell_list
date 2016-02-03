@@ -337,25 +337,25 @@
       "range": "-",
       "classes": {
         "bard":{
-          "level": 1,
+          "level": 2,
           "cost": 1,
           "max-purchases": 4,
           "frequency" : "1/Refresh"
         },
         "druid": {
-          "level": 1,
+          "level": 2,
           "cost": 1,
           "max-purchases": 4,
           "frequency" : "1/Refresh"
         },
         "healer": {
-          "level": 1,
+          "level": 2,
           "cost": 2,
           "max-purchases": 2,
           "frequency" : "1/Life"
         },
-        "wizard":{
-          "level": 1,
+        "wizard": {
+          "level": 2,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Refresh"
@@ -438,6 +438,112 @@
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Refresh charge*3"
+        }
+      }
+    }
+    {
+      "name": "Attuned",
+      "type": "Enchantment",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1/Refresh"
+        }
+      }
+    }
+    {
+      "name": "Bear Strength",
+      "type": "Enchantment",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    }
+    {
+      "name": "Dispel Magic",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "20 feet",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        },
+        "healer": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Refresh"
+        },
+        "scout": {
+          "level": 3,
+          "cost": 0,
+          "max-purchases": "-",
+          "frequency": "1/Refresh"
+        },
+        "wizard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Refresh charge*3"
+        }
+      }
+    }
+    {
+      "name": "Extension",
+      "type": "Meta-Magic",
+      "school": "Neutral",
+      "range": "-",
+      "classes": {
+        "bard":{
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "1/Life"
+        },
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "1/Life"
+        },
+        "healer": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "1/Life"
+        },
+        "wizard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "1/Life"
+        }
+      }
+    }
+    {
+      "name": "Gift of Fire",
+      "type": "Enchantment",
+      "school": "Flame",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "1/Refresh"
         }
       }
     }
