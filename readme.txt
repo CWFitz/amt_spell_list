@@ -1,4 +1,4 @@
 contributors: 
-Charles W. Fitzgerald/Eronim Faitzhand, project manager (data repository)
+Charles W. Fitzgerald/Eronim Faitzhand, Project manager (data repository)
 Ben Overmeyer, consultant/mentor
-Jason Katzner, Programmer (HTML/JS assistance)
+Jason Katzner/Gorovan Dramsson, Programmer (HTML/JS assistance)
