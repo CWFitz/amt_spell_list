@@ -20,7 +20,7 @@
       "type": "Enchantment",
       "school": "Protection",
       "range": "Touch",
-      "materials": "White strip",
+      "materials": "White Strip",
       "classes": {
         "Healer": {
           "level": 2,
@@ -35,7 +35,7 @@
       "type": "Enchantment",
       "school": "Protection",
       "range": "Touch",
-      "materials": "White strip",
+      "materials": "White Strip",
       "classes": {
         "healer": {
           "level": 3,
@@ -109,7 +109,7 @@
       "type": "Enchantment",
       "school": "Protection",
       "range": "Touch",
-      "materials": "White strip",
+      "materials": "White Strip",
       "classes": {
         "healer": {
           "level": 6,
@@ -144,7 +144,7 @@
       "type": "Enchantment",
       "school": "Sorcery",
       "range": "Touch",
-      "materials": "Yellow strip",
+      "materials": "Yellow Strip",
       "classes": {
         "druid": {
           "level": 3,
@@ -182,29 +182,22 @@
       }
     },
     {
-      "name": "Entangle",
-      "type": "Magic Ball",
-      "school": "Subdual",
-      "range": "Ball",
-      "materials": "Brown Magic Ball",
+      "name": "Banish",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "20'",
       "classes": {
-        "druid": {
+        "healer": {
           "level": 1,
           "cost": 1,
-          "max-purchases": 2,
-          "frequency" : "2 Balls/Unlimited"
-        },
-        "healer": {
-          "level": 2,
-          "cost": 1,
-          "max-purchases": 4,
-          "frequency" : "2 Balls/Unlimited"
+          "max-purchases": "-",
+          "frequency" : "1/Life"
         },
         "wizard": {
-          "level": 2,
+          "level": 1,
           "cost": 1,
-          "max-purchases": 3,
-          "frequency" : "2 Balls/Unlimited"
+          "max-purchases": "-",
+          "frequency" : "1/Life"
         }
       }
     },
@@ -219,6 +212,21 @@
           "level": 1,
           "cost": 1,
           "max-purchases": 2,
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Bear Strength",
+      "type": "Enchantment",
+      "school": "Sorcery",
+      "range": "Touch",
+      "materials": "Red Strip",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
           "frequency" : "1/Refresh"
         }
       }
@@ -265,6 +273,138 @@
         "druid": {
           "level": 1,
           "cost": 1,
+          "max-purchases": 1,
+          "frequency" : "-"
+        }
+      }
+    },
+    {
+      "name": "Dispel Magic",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "20 feet",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        },
+        "healer": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Refresh"
+        },
+        "scout": {
+          "level": 3,
+          "cost": 0,
+          "max-purchases": "-",
+          "frequency": "1/Refresh"
+        },
+        "wizard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Refresh charge*3"
+        }
+      }
+    },
+    {
+      "name": "Extension",
+      "type": "Meta-Magic",
+      "school": "Neutral",
+      "range": "-",
+      "classes": {
+        "bard":{
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "1/Life"
+        },
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "1/Life"
+        },
+        "healer": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "1/Life"
+        },
+        "wizard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "1/Life"
+        }
+      }
+    },
+    {
+      "name": "Gift of Fire",
+      "type": "Enchantment",
+      "school": "Flame",
+      "range": "Touch",
+      "materials": "Red and White Strip",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Entangle",
+      "type": "Magic Ball",
+      "school": "Subdual",
+      "range": "Ball",
+      "materials": "Brown Magic Ball",
+      "classes": {
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "2 Balls/Unlimited"
+        },
+        "healer": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": 4,
+          "frequency" : "2 Balls/Unlimited"
+        },
+        "wizard": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": 3,
+          "frequency" : "2 Balls/Unlimited"
+        }
+      }
+    },
+    {
+      "name": "Equipment: Shield, Small",
+      "type": "Neutral",
+      "school": "Neutral",
+      "range": "-",
+      "classes": {
+        "bard": {
+          "level": 3,
+          "cost": 2,
+          "max-purchases": 1,
+          "frequency" : "-"
+        },
+        "druid": {
+          "level": 2,
+          "cost": 4,
+          "max-purchases": 1,
+          "frequency" : "-"
+        },
+        "healer": {
+          "level": 1,
+          "cost": 2,
           "max-purchases": 1,
           "frequency" : "-"
         }
@@ -335,104 +475,6 @@
       }
     },
     {
-      "name": "Heat Weapon",
-      "type": "Verbal",
-      "school": "Flame",
-      "range": "20 feet",
-      "classes": {
-        "druid": {
-          "level": 1,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Life charge*3"
-        },
-        "wizard":{
-          "level": 1,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Life"
-        }
-      }
-    },
-    {
-      "name": "Imbue Armor",
-      "type": "Enchantment",
-      "school": "Protection",
-      "range": "Touch",
-      "classes": {
-        "druid": {
-          "level": 1,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Refresh"
-        }
-      }
-    },
-    {
-      "name": "Mend",
-      "type": "Verbal",
-      "school": "Sorcery",
-      "range": "Touch",
-      "classes": {
-        "archer": {
-          "level": 2,
-          "cost": 0,
-          "max-purchases": 1,
-          "frequency": "1/Life"
-        },
-        "bard": {
-          "level": 2,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Life"
-        },
-        "druid": {
-          "level": 1,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Life"
-        },
-        "healer": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Life"
-        },
-        "wizard":{
-          "level": 1,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Life"
-        }
-      }
-    },
-    {
-      "name": "Equipment: Shield, Small",
-      "type": "Neutral",
-      "school": "Neutral",
-      "range": "-",
-      "classes": {
-        "bard": {
-          "level": 3,
-          "cost": 2,
-          "max-purchases": 1,
-          "frequency" : "-"
-        },
-        "druid": {
-          "level": 2,
-          "cost": 4,
-          "max-purchases": 1,
-          "frequency" : "-"
-        },
-        "healer": {
-          "level": 1,
-          "cost": 2,
-          "max-purchases": 1,
-          "frequency" : "-"
-        }
-      }
-    },
-    {
       "name": "Gift of Earth",
       "type": "Enchantment",
       "school": "Protection",
@@ -486,6 +528,26 @@
       }
     },
     {
+      "name": "Heat Weapon",
+      "type": "Verbal",
+      "school": "Flame",
+      "range": "20 feet",
+      "classes": {
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life charge*3"
+        },
+        "wizard":{
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        }
+      }
+    },
+    {
       "name": "Ice Ball",
       "type": "Magic Ball",
       "school": "Subdual",
@@ -509,6 +571,20 @@
           "cost": 1,
           "max-purchases": 3,
           "frequency" : "2 Balls/Unlimited"
+        }
+      }
+    },
+    {
+      "name": "Imbue Armor",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
         }
       }
     },
@@ -541,6 +617,44 @@
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Mend",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "archer": {
+          "level": 2,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency": "1/Life"
+        },
+        "bard": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        },
+        "druid": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        },
+        "healer": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        },
+        "wizard":{
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
         }
       }
     },
@@ -623,114 +737,5 @@
         }
       }
     },
-    {
-      "name": "Attuned",
-      "type": "Enchantment",
-      "school": "Sorcery",
-      "range": "Touch",
-      "materials": "Yellow Strip",
-      "classes": {
-        "druid": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": 2,
-          "frequency" : "1/Refresh"
-        }
-      }
-    },
-    {
-      "name": "Bear Strength",
-      "type": "Enchantment",
-      "school": "Sorcery",
-      "range": "Touch",
-      "materials": "Red Strip",
-      "classes": {
-        "druid": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Refresh"
-        }
-      }
-    },
-    {
-      "name": "Dispel Magic",
-      "type": "Verbal",
-      "school": "Sorcery",
-      "range": "20 feet",
-      "classes": {
-        "druid": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency" : "1/Refresh"
-        },
-        "healer": {
-          "level": 5,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency": "1/Refresh"
-        },
-        "scout": {
-          "level": 3,
-          "cost": 0,
-          "max-purchases": "-",
-          "frequency": "1/Refresh"
-        },
-        "wizard": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": "-",
-          "frequency": "1/Refresh charge*3"
-        }
-      }
-    },
-    {
-      "name": "Extension",
-      "type": "Meta-Magic",
-      "school": "Neutral",
-      "range": "-",
-      "classes": {
-        "bard":{
-          "level": 3,
-          "cost": 1,
-          "max-purchases": 3,
-          "frequency" : "1/Life"
-        },
-        "druid": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": 3,
-          "frequency" : "1/Life"
-        },
-        "healer": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": 3,
-          "frequency" : "1/Life"
-        },
-        "wizard": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": 3,
-          "frequency" : "1/Life"
-        }
-      }
-    },
-    {
-      "name": "Gift of Fire",
-      "type": "Enchantment",
-      "school": "Flame",
-      "range": "Touch",
-      "materials": "Red and White Strip",
-      "classes": {
-        "druid": {
-          "level": 3,
-          "cost": 1,
-          "max-purchases": 2,
-          "frequency": "1/Refresh"
-        }
-      }
-    }
   ]
 }
