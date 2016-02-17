@@ -1,11 +1,192 @@
 {
   "spells": [
     {
+      "name": "Abeyance",
+      "type": "Magic Ball",
+      "school": "Subdual",
+      "range": "Ball",
+      "materials": "Green Magic Ball",
+      "classes": {
+        "healer": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1 Ball/Unlimited"
+        }
+      }
+    },
+    {
+      "name": "Adaptive Blessing",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "materials": "White strip",
+      "classes": {
+        "Healer": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1/Life"
+        }
+      }
+    },
+    {
+      "name": "Adaptive Protection",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "materials": "White strip",
+      "classes": {
+        "healer": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Agoraphobia",
+      "type": "Verbal",
+      "school": "Command",
+      "range": "20'",
+      "classes": {
+        "bard": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Amplification",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "bard": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Ambulant",
+      "type": "Meta-Magic",
+      "school": "Neutral",
+      "classes": {
+        "bard": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1/Life"
+        },
+        "druid": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1/Life"
+        },
+        "healer": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        },
+        "wizard": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1/Life"
+        }
+      }
+    },
+    {
+      "name": "Ancestral Armor",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "materials": "White strip",
+      "classes": {
+        "healer": {
+          "level": 6,
+          "cost": 2,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Astral Intervention",
+      "type": "Verbal",
+      "school": "Death",
+      "range": "20'",
+      "classes": {
+        "healer": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life Charge x3"
+        },
+        "wizard": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        }
+      }
+    },
+    {
+      "name": "Attuned",
+      "type": "Enchantment",
+      "school": "Sorcery",
+      "range": "Touch",
+      "materials": "Yellow strip",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Avatar of Nature",
+      "type": "Neutral",
+      "school": "Neutral",
+      "classes": {
+        "druid": {
+          "level": 6,
+          "cost": 1,
+          "max-purchases": 1,
+          "frequency" : "-"
+        }
+      }
+    },
+    {
+      "name": "Awe",
+      "type": "Verbal",
+      "school": "Command",
+      "range": "20'",
+      "classes": {
+        "bard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        }
+      }
+    },
+    {
       "name": "Entangle",
       "type": "Magic Ball",
       "school": "Subdual",
       "range": "Ball",
-      "materials": "Brown Ball",
+      "materials": "Brown Magic Ball",
       "classes": {
         "druid": {
           "level": 1,
@@ -309,7 +490,7 @@
       "type": "Magic Ball",
       "school": "Subdual",
       "range": "Ball",
-      "materials": "White Ball",
+      "materials": "White Magic Ball",
       "classes": {
         "druid": {
           "level": 2,
