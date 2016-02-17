@@ -1,11 +1,25 @@
 <html>
 	<head>
-    	<title>App page 1 of X </title>
+    		<title>App page 1 of X</title>
+        	<!--function to change class descriptions-->
+        	<script type="text/javascript">
+            	var classTexts = new Array(
+	                'Select a class from the dropdown above.',
+                	'<p>Bardic history is mostly tied in with the early oral tradition of the druids and Norse skalds. Medieval Europe does give us a case of actual singing knights, many of them female, from the independent French province of Aquitaine before it was crushed by the Papacy.</p>',
+                	'<p>Neolithic anthropological evidence indicates a strong tradition of matriarchy and mother worship in Central Europe, the origin of the proto-Celtic Beaker and Axe peoples. It is highly possible that many if not most early druidic-types were priestesses rather than priests.</p>',
+                	'<p>This image has been somewhat forged between clerics and the “hedge mages” that preceded Christianity. Our modern view of the fighting “Healer” stems from early medieval clerical use of bludgeoning weapons, so as not to break the implied biblical prohibition against drawing blood.</p>',
+                	'<p>The alchemists of the Dark Ages can be said to be Wizards, but 10,000-year old cave paintings in France indicate that the concept of fusing the spirit and physical worlds has been with us since the start.</p>'
+            	);
+	        
+            	function changeClass(ind) {
+	                document.getElementById("classText").innerHTML=classTexts[ind];
+            	}
+        	</script>
 	</head>
 	<body>
 		<div class = "container">
 			<form>
-				<select name="class" size="1">
+				<select name="class" size="1" onChange="changeClass(this.selectedIndex);">
 					<!--class selection dropdown-->
 					<option value=null, selected> Select your Class </option> 
 					<option value=1> Bard </option>
@@ -15,10 +29,10 @@
 				</select>
 			</form>
 		</div>
-		<div class = "container">
+		<div class = "container" id = "classText">
 			<p>
 				<!--class description paragraph placeholder-->
-				This is a test paragraph. I would like to see it replaced with a changing paragraph based on current class selected in the future. For now, it is only a place holder to test the theory in how it should be placed. It seems to be working correctly.
+				Select a class from the dropdown above.
 			</p>
 		<div class = "container">
 			<form>
