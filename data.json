@@ -7,7 +7,7 @@
       "range": "Ball",
       "materials": "Green Magic Ball",
       "classes": {
-        "healer": {
+        "Healer": {
           "level": 5,
           "cost": 1,
           "max-purchases": 2,
@@ -27,6 +27,12 @@
           "cost": 1,
           "max-purchases": 2,
           "frequency" : "1/Life"
+        },
+        "Scout": {
+          "level": 6,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Life"
         }
       }
     },
@@ -37,11 +43,25 @@
       "range": "Touch",
       "materials": "White Strip",
       "classes": {
-        "healer": {
+        "Healer": {
           "level": 3,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Adrenaline",
+      "type": "Verbal",
+      "school": "Spirit",
+      "range": "Self",
+      "classes": {
+        "Barbarian": {
+          "level": 3,
+          "cost": 0,
+          "max-purchases": "-",
+          "frequency" : "Unlimited"
         }
       }
     },
@@ -51,7 +71,7 @@
       "school": "Command",
       "range": "20'",
       "classes": {
-        "bard": {
+        "Bard": {
           "level": 5,
           "cost": 1,
           "max-purchases": "-",
@@ -65,7 +85,7 @@
       "school": "Sorcery",
       "range": "Touch",
       "classes": {
-        "bard": {
+        "Bard": {
           "level": 4,
           "cost": 1,
           "max-purchases": "-",
@@ -78,25 +98,25 @@
       "type": "Meta-Magic",
       "school": "Neutral",
       "classes": {
-        "bard": {
+        "Bard": {
           "level": 5,
           "cost": 1,
           "max-purchases": 2,
           "frequency" : "1/Life"
         },
-        "druid": {
+        "Druid": {
           "level": 5,
           "cost": 1,
           "max-purchases": 2,
           "frequency" : "1/Life"
         },
-        "healer": {
+        "Healer": {
           "level": 5,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Refresh"
         },
-        "wizard": {
+        "Wizard": {
           "level": 5,
           "cost": 1,
           "max-purchases": 2,
@@ -111,9 +131,23 @@
       "range": "Touch",
       "materials": "White Strip",
       "classes": {
-        "healer": {
+        "Healer": {
           "level": 6,
           "cost": 2,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Assassinate",
+      "type": "Verbal",
+      "school": "Death",
+      "range": "20'",
+      "classes": {
+        "Assassin": {
+          "level": 1,
+          "cost": 0,
           "max-purchases": "-",
           "frequency" : "1/Refresh"
         }
@@ -125,13 +159,13 @@
       "school": "Death",
       "range": "20'",
       "classes": {
-        "healer": {
+        "Healer": {
           "level": 3,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Life Charge x3"
         },
-        "wizard": {
+        "Wizard": {
           "level": 2,
           "cost": 1,
           "max-purchases": "-",
@@ -146,7 +180,7 @@
       "range": "Touch",
       "materials": "Yellow Strip",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 3,
           "cost": 1,
           "max-purchases": 2,
@@ -159,7 +193,7 @@
       "type": "Neutral",
       "school": "Neutral",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 6,
           "cost": 1,
           "max-purchases": 1,
@@ -173,10 +207,22 @@
       "school": "Command",
       "range": "20'",
       "classes": {
-        "bard": {
+        "Anti-Paladin": {
+          "level": 5,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Life"
+        },
+        "Bard": {
           "level": 3,
           "cost": 1,
-          "max-purchases": "-",
+          "max-purchases": 1,
+          "frequency" : "1/Life"
+        },
+        "Paladin": {
+          "level": 5,
+          "cost": 0,
+          "max-purchases": 1,
           "frequency" : "1/Life"
         }
       }
@@ -187,13 +233,13 @@
       "school": "Sorcery",
       "range": "20'",
       "classes": {
-        "healer": {
+        "Healer": {
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Life"
         },
-        "wizard": {
+        "Wizard": {
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
@@ -208,11 +254,39 @@
       "range": "Touch",
       "materials": "White Strip",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 1,
           "max-purchases": 2,
           "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Battlefield Triage",
+      "type": "Enchantment",
+      "school": "Spirit",
+      "range": "Self or Touch",
+      "materials": "Four Yellow Strips",
+      "classes": {
+        "Bard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 1,
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Battlemage",
+      "type": "Neutral",
+      "school": "Neutral",
+      "classes": {
+        "Wizard": {
+          "level": 6,
+          "cost": 2,
+          "max-purchases": 1,
+          "frequency" : "-"
         }
       }
     },
@@ -223,11 +297,134 @@
       "range": "Touch",
       "materials": "Red Strip",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 3,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Refresh"
+        }
+      }
+    },
+      "name": "Berserk",
+      "type": "Enchantment",
+      "school": "Sorcery",
+      "range": "Self",
+      "materials": "Red Strip",
+      "classes": {
+        "Barbarian": {
+          "level": 1,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "-"
+        }
+      }
+    },
+      "name": "Blessed Aura",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "materials": "White Strip",
+      "classes": {
+        "Healer": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+      "name": "Blessing Against Harm",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "materials": "White Strip",
+      "classes": {
+        "Healer": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+      "name": "Blessing Against Wounds",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "materials": "White Strip",
+      "classes": {
+        "Healer": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        }
+      }
+    },
+      "name": "Blink",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "Self",
+      "classes": {
+        "Assassin": {
+          "level": 3,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "2/Life"
+        }
+      }
+    },
+      "name": "Blood and Thunder",
+      "type": "Verbal",
+      "school": "Spirit",
+      "range": "Self",
+      "materials": "White Strip",
+      "classes": {
+        "Barbarian": {
+          "level": 1,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "2/Refresh"
+        }
+      }
+    },
+      "name": "Break Concentration",
+      "type": "Verbal;",
+      "school": "Command",
+      "range": "Unlimited",
+      "classes": {
+        "Bard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : ""
+        }
+      "classes": {
+        "Wizard": {
+          "level": 2,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Life"
+        }
+      }
+    },
+      "name": "Brutal Strike",
+      "type": "Verbal",
+      "school": "Death",
+      "range": "Unlimited",
+      "classes": {
+        "Anti-Paladin": {
+          "level": 4,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Life"
+        }
+      "classes": {
+        "Barbarin": {
+          "level": 5,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1/Life"
         }
       }
     },
@@ -237,25 +434,25 @@
       "school": "Neutral",
       "range": "Touch",
       "classes": {
-        "bard":{
+        "Bard":{
           "level": 1,
           "cost": 0,
           "max-purchases": 1,
           "frequency" : "Unlimited"
         },
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 0,
           "max-purchases": 1,
           "frequency" : "Unlimited"
         },
-        "healer": {
+        "Healer": {
           "level": 1,
           "cost": 0,
           "max-purchases": 1,
           "frequency" : "Unlimited"
         },
-        "wizard":{
+        "Wizard":{
           "level": 1,
           "cost": 0,
           "max-purchases": 1,
@@ -270,7 +467,7 @@
       "range": "Self/Touch",
       "materials": "5 Red Strips",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 1,
           "max-purchases": 1,
@@ -284,29 +481,29 @@
       "school": "Sorcery",
       "range": "20 feet",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 3,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Refresh"
         },
-        "healer": {
+        "Healer": {
           "level": 5,
           "cost": 1,
           "max-purchases": "-",
           "frequency": "1/Refresh"
         },
-        "scout": {
+        "Scout": {
           "level": 3,
           "cost": 0,
-          "max-purchases": "-",
+          "max-purchases": 1,
           "frequency": "1/Refresh"
         },
-        "wizard": {
+        "Wizard": {
           "level": 3,
           "cost": 1,
           "max-purchases": "-",
-          "frequency": "1/Refresh charge*3"
+          "frequency": "1/Refresh Charge x3"
         }
       }
     },
@@ -316,25 +513,25 @@
       "school": "Neutral",
       "range": "-",
       "classes": {
-        "bard":{
+        "Bard":{
           "level": 3,
           "cost": 1,
           "max-purchases": 3,
           "frequency" : "1/Life"
         },
-        "druid": {
+        "Druid": {
           "level": 3,
           "cost": 1,
           "max-purchases": 3,
           "frequency" : "1/Life"
         },
-        "healer": {
+        "Healer": {
           "level": 3,
           "cost": 1,
           "max-purchases": 3,
           "frequency" : "1/Life"
         },
-        "wizard": {
+        "Wizard": {
           "level": 3,
           "cost": 1,
           "max-purchases": 3,
@@ -349,7 +546,7 @@
       "range": "Touch",
       "materials": "Red and White Strip",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 3,
           "cost": 1,
           "max-purchases": 2,
@@ -364,19 +561,19 @@
       "range": "Ball",
       "materials": "Brown Magic Ball",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 1,
           "max-purchases": 2,
           "frequency" : "2 Balls/Unlimited"
         },
-        "healer": {
+        "Healer": {
           "level": 2,
           "cost": 1,
           "max-purchases": 4,
           "frequency" : "2 Balls/Unlimited"
         },
-        "wizard": {
+        "Wizard": {
           "level": 2,
           "cost": 1,
           "max-purchases": 3,
@@ -390,19 +587,19 @@
       "school": "Neutral",
       "range": "-",
       "classes": {
-        "bard": {
+        "Bard": {
           "level": 3,
           "cost": 2,
           "max-purchases": 1,
           "frequency" : "-"
         },
-        "druid": {
+        "Druid": {
           "level": 2,
           "cost": 4,
           "max-purchases": 1,
           "frequency" : "-"
         },
-        "healer": {
+        "Healer": {
           "level": 1,
           "cost": 2,
           "max-purchases": 1,
@@ -416,25 +613,25 @@
       "school": "Neutral",
       "range": "-",
       "classes": {
-        "bard":{
+        "Bard":{
           "level": 1,
           "cost": 2,
           "max-purchases": 2,
           "frequency" : "-"
         },
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 2,
           "max-purchases": 2,
           "frequency" : "-"
         },
-        "healer": {
+        "Healer": {
           "level": 1,
           "cost": 3,
           "max-purchases": 1,
           "frequency" : "-"
         },
-        "wizard":{
+        "Wizard":{
           "level": 1,
           "cost": 2,
           "max-purchases": 1,
@@ -448,25 +645,25 @@
       "school": "Neutral",
       "range": "-",
       "classes": {
-        "bard":{
+        "Bard":{
           "level": 1,
           "cost": 2,
           "max-purchases": 2,
           "frequency" : "-"
         },
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 2,
           "max-purchases": 2,
           "frequency" : "-"
         },
-        "healer": {
+        "Healer": {
           "level": 1,
           "cost": 2,
           "max-purchases": 2,
           "frequency" : "-"
         },
-        "wizard":{
+        "Wizard":{
           "level": 1,
           "cost": 2,
           "max-purchases": 2,
@@ -481,7 +678,7 @@
       "range": "Touch",
       "materials": "White Strip",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 2,
           "cost": 1,
           "max-purchases": 2,
@@ -495,19 +692,19 @@
       "school": "Spirit",
       "range": "Touch",
       "classes": {
-        "monk":{
+        "Monk":{
           "level": 4,
           "cost": 0,
           "max-purchases": "-",
           "frequency" : "Self-Only 1/Life"
         },
-        "druid": {
+        "Druid": {
           "level": 2,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Life"
         },
-        "healer": {
+        "Healer": {
           "level": 1,
           "cost": 1,
           "max-purchases": 1,
@@ -517,9 +714,9 @@
           "level": 1,
           "cost": 0,
           "max-purchases": 1,
-          "frequency" : "1/Refresh charge *3"
+          "frequency" : "1/Refresh Charge x3"
         },
-        "scout":{
+        "Scout":{
           "level": 2,
           "cost": 0,
           "max-purchases": 1,
@@ -533,13 +730,13 @@
       "school": "Flame",
       "range": "20 feet",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
-          "frequency" : "1/Life charge*3"
+          "frequency" : "1/Life Charge x3"
         },
-        "wizard":{
+        "Wizard":{
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
@@ -554,19 +751,19 @@
       "range": "Ball",
       "materials": "White Magic Ball",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 2,
           "cost": 1,
           "max-purchases": 2,
           "frequency" : "2 Balls/Unlimited"
         },
-        "healer": {
+        "Healer": {
           "level": 3,
           "cost": 1,
           "max-purchases": 2,
           "frequency" : "2 Balls/Unlimited"
         },
-        "wizard": {
+        "Wizard": {
           "level": 3,
           "cost": 1,
           "max-purchases": 3,
@@ -580,7 +777,7 @@
       "school": "Protection",
       "range": "Touch",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
@@ -594,25 +791,25 @@
       "school": "Neutral",
       "range": "-",
       "classes": {
-        "bard":{
+        "Bard":{
           "level": 2,
           "cost": 1,
           "max-purchases": 4,
           "frequency" : "1/Refresh"
         },
-        "druid": {
+        "Druid": {
           "level": 2,
           "cost": 1,
           "max-purchases": 4,
           "frequency" : "1/Refresh"
         },
-        "healer": {
+        "Healer": {
           "level": 2,
           "cost": 2,
           "max-purchases": 2,
           "frequency" : "1/Life"
         },
-        "wizard": {
+        "Wizard": {
           "level": 2,
           "cost": 1,
           "max-purchases": "-",
@@ -626,31 +823,31 @@
       "school": "Sorcery",
       "range": "Touch",
       "classes": {
-        "archer": {
+        "Archer": {
           "level": 2,
           "cost": 0,
           "max-purchases": 1,
           "frequency": "1/Life"
         },
-        "bard": {
+        "Bard": {
           "level": 2,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Life"
         },
-        "druid": {
+        "Druid": {
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Life"
         },
-        "healer": {
+        "Healer": {
           "level": 3,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Life"
         },
-        "wizard":{
+        "Wizard":{
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
@@ -665,23 +862,23 @@
       "range": "Touch",
       "materials": "Red Strip",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 2,
           "cost": 1,
           "max-purchases": 4,
           "frequency" : "1/Refresh"
         },
-        "assassin": {
+        "Assassin": {
           "level": 2,
           "cost": 0,
           "max-purchases": 1,
-          "frequency" : "1/Life charge*3"
+          "frequency" : "Unlimited"
         },
-        "anti-paladin": {
+        "Anti-Paladin": {
           "level": 2,
           "cost": 0,
           "max-purchases": 1,
-          "frequency" : "1/Refresh charge*3"
+          "frequency" : "1/Refresh Charge x3"
         }
       }
     },
@@ -691,31 +888,31 @@
       "school": "Sorcery",
       "range": "Touch",
       "classes": {
-        "bard": {
+        "Bard": {
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
           "frequency": "1/Life"
         },
-        "druid": {
+        "Druid": {
           "level": 2,
           "cost": 1,
           "max-purchases": "-",
           "frequency" : "1/Life"
         },
-        "healer": {
+        "Healer": {
           "level": 1,
           "cost": 1,
           "max-purchases": "-",
-          "frequency" : "2/Life charge*3"
+          "frequency" : "2/Life Charge x3"
         },
-        "scout": {
+        "Scout": {
           "level": 2,
           "cost": 0,
           "max-purchases": 1,
-          "frequency" : "1/Life charge*3"
+          "frequency" : "1/Life Charge x3"
         },
-        "wizard": {
+        "Wizard": {
           "level": 2,
           "cost": 1,
           "max-purchases": "-",
@@ -729,11 +926,11 @@
       "school": "Protection",
       "range": "Self",
       "classes": {
-        "druid": {
+        "Druid": {
           "level": 2,
           "cost": 1,
           "max-purchases": "-",
-          "frequency" : "1/Refresh charge*3"
+          "frequency" : "1/Refresh Charge x3"
         }
       }
     },
