@@ -591,6 +591,33 @@
         }
       }
     },
-    //placeholder for regeneration//
+    {
+      "name": "Regeneration",
+      "type": "Enchantment",
+      "school": "Spirit",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Stoneskin",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "1/Refresh"
+        }
+      }
+    },
   ]
 }
