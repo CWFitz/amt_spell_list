@@ -619,5 +619,127 @@
         }
       }
     },
+    {
+      "name": "Equipment: Weapon, Long",
+      "type": "Neutral",
+      "school": "Neutral",
+      "range": "N/A",
+      "classes": {
+        "bard": {
+          "level": 4,
+          "cost": 3,
+          "max-purchases": 1,
+          "frequency": "N/A"
+        },
+        "Druid": {
+          "level": 4,
+          "cost": 4
+          "max-purchases": 1,
+          "frequency": "N/A"
+        },
+        "wizard": {
+          "level": 5,
+          "cost": 4,
+          "max-purchases": 1,
+          "frequency": "N/A"
+        }
+      }
+    },
+    {
+      "name": "Flame Blade",
+      "type": "Enchantment",
+      "school": "Flame",
+      "range": "Touch",
+      "classes": {
+        "Druid": {
+          "level": 4,
+          "cost": 2,
+          "max_purchases": 2,
+          "frequency": "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Force Bolt"
+      "type": "Magic Ball",
+      "School": "Sorcery",
+      "range": "Ball",
+      "classes": {
+        "druid": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "2 Balls/Unlimited"
+        },
+        "Wizard": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": 4,
+          "frequency": "3 Balls/Unlimited"
+        }
+      }
+    },
+    {
+      "name": "Gift of Water",
+      "type": "Enchantment",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+        "level": 4,
+        "cost": 1,
+        "max-purchases": 2,
+        "frequency": "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Golem",
+      "type": "Enchantment",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Lycanthropy",
+      "type": "Encahntment",
+      "school": "Sorcery",
+      "range": "Touch"
+      "classes": {
+        "druid": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Swift",
+      "type": "Meta-Magic",
+      "school": "Neutral",
+      "range": "-",
+      "classes": {
+        "bard": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "1/life"
+        },
+        "druid": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "1/life"
+        },
+      }
+    }
   ]
 }
