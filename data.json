@@ -550,6 +550,47 @@
           "frequency": "1/Refresh"
         }
       }
-    }
+    },
+    {
+      "name": "Greater Mend",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "Range": "Touch",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Refresh"
+        },
+            "wizard": {
+            "level": 3,
+            "cost": 1,
+            "max-purchases": "-",
+            "frequency": "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Icy BLast",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "20 feet",
+      "classes": {
+        "druid": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Life"
+        },
+        "wizard": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency": "1/Refresh"
+        }
+      }
+    },
+    //placeholder for regeneration//
   ]
 }
