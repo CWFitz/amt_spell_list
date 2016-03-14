@@ -633,7 +633,7 @@
         },
         "Druid": {
           "level": 4,
-          "cost": 4
+          "cost": 4,
           "max-purchases": 1,
           "frequency": "N/A"
         },
@@ -731,14 +731,26 @@
           "level": 4,
           "cost": 1,
           "max-purchases": 2,
-          "frequency": "1/life"
+          "frequency": "1/Life"
         },
         "druid": {
           "level": 4,
           "cost": 1,
           "max-purchases": 2,
-          "frequency": "1/life"
+          "frequency": "1/Life"
         },
+        "healer": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "1/Life"
+        },
+        "wizard": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": 2,
+          "frequency": "1/Life"
+        }
       }
     }
   ]
