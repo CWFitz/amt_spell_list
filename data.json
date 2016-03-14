@@ -660,7 +660,7 @@
       }
     },
     {
-      "name": "Force Bolt"
+      "name": "Force Bolt",
       "type": "Magic Ball",
       "School": "Sorcery",
       "range": "Ball",
@@ -711,7 +711,7 @@
       "name": "Lycanthropy",
       "type": "Encahntment",
       "school": "Sorcery",
-      "range": "Touch"
+      "range": "Touch",
       "classes": {
         "druid": {
           "level": 4,
