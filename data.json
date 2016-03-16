@@ -405,8 +405,7 @@
           "cost": 1,
           "max-purchases": "-",
           "frequency" : ""
-        }
-      "classes": {
+        },
         "Wizard": {
           "level": 2,
           "cost": 1,
