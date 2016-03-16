@@ -425,8 +425,7 @@
           "cost": 0,
           "max-purchases": 1,
           "frequency" : "1/Life"
-        }
-      "classes": {
+        },
         "Barbarin": {
           "level": 5,
           "cost": 0,
