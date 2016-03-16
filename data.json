@@ -305,6 +305,7 @@
         }
       }
     },
+    {
       "name": "Berserk",
       "type": "Enchantment",
       "school": "Sorcery",
@@ -319,6 +320,7 @@
         }
       }
     },
+    {
       "name": "Blessed Aura",
       "type": "Enchantment",
       "school": "Protection",
@@ -333,6 +335,7 @@
         }
       }
     },
+    {
       "name": "Blessing Against Harm",
       "type": "Enchantment",
       "school": "Protection",
@@ -347,6 +350,7 @@
         }
       }
     },
+    {
       "name": "Blessing Against Wounds",
       "type": "Enchantment",
       "school": "Protection",
@@ -361,6 +365,7 @@
         }
       }
     },
+    {
       "name": "Blink",
       "type": "Verbal",
       "school": "Sorcery",
@@ -374,6 +379,7 @@
         }
       }
     },
+    {
       "name": "Blood and Thunder",
       "type": "Verbal",
       "school": "Spirit",
@@ -388,6 +394,7 @@
         }
       }
     },
+    {
       "name": "Break Concentration",
       "type": "Verbal;",
       "school": "Command",
@@ -408,6 +415,7 @@
         }
       }
     },
+    {
       "name": "Brutal Strike",
       "type": "Verbal",
       "school": "Death",
