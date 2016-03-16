@@ -435,6 +435,20 @@
       }
     },
     {
+      "name": "Call Lightning",
+      "type": "Verbal",
+      "school": "Flame",
+      "range": "20'",
+      "classes": {
+        "Druid": {
+          "level": 6,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
       "name": "Cancel",
       "type": "Neutral",
       "school": "Neutral",
@@ -467,6 +481,63 @@
       }
     },
     {
+      "name": "Circle of Protection",
+      "type": "Enchantment",
+      "school": "Protection",
+      "range": "Self",
+      "materials": "White Strip",
+      "classes": {
+        "Healer": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": 1,
+          "frequency" : "1/Refresh Charge x10"
+        }
+      }
+    },
+    {
+      "name": "Combat Caster",
+      "type": "Neutral",
+      "school": "Neutral",
+      "classes": {
+        "Bard": {
+          "level": 6,
+          "cost": 2,
+          "max-purchases": 1,
+          "frequency" : "-"
+        }
+      }
+    },
+    {
+      "name": "Confidence",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "Touch",
+      "classes": {
+        "Bard": {
+          "level": 1,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh Charge x5"
+        }
+      }
+    },
+    {
+      "name": "Contagion",
+      "type": "Enchantment",
+      "school": "Death",
+      "range": "Touch",
+      "materials": "Red Strip",
+      "classes": {
+        "Wizard": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
       "name": "Corrosive Mist",
       "type": "Enchantment",
       "school": "Death",
@@ -477,7 +548,91 @@
           "level": 1,
           "cost": 1,
           "max-purchases": 1,
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Coup de Grace",
+      "type": "Verbal",
+      "school": "Death",
+      "range": "20'",
+      "classes": {
+        "Assassin": {
+          "level": 6,
+          "cost": 0,
+          "max-purchases": ,
+          "frequency" : "1/Life"
+        }
+      }
+    },
+    {
+      "name": "Dervish",
+      "type": "Neutral",
+      "school": "Neutral",
+      "classes": {
+        "Bard": {
+          "level": 6,
+          "cost": 2,
+          "max-purchases": 1,
           "frequency" : "-"
+        }
+      }
+    },
+    {
+      "name": "Destroy Armor",
+      "type": "Verbal",
+      "school": "Death",
+      "range": "20'",
+      "classes": {
+        "Wizard": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "2/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Destruction Arrow",
+      "type": "Specialty Arrow",
+      "school": "Sorcery",
+      "materials": "Red Arrow",
+      "classes": {
+        "Archer": {
+          "level": 1,
+          "cost": 0,
+          "max-purchases": 1,
+          "frequency" : "1 Arrow/Unlimited"
+        }
+      }
+    },
+    {
+      "name": "Dimensional Rift",
+      "type": "Verbal",
+      "school": "Sorcery",
+      "range": "20'",
+      "classes": {
+        "Wizard": {
+          "level": 4,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
+        }
+      }
+    },
+    {
+      "name": "Discordia",
+      "type": "Enchantment",
+      "school": "Command",
+      "range": "Self",
+      "materials": "Red Strip",
+      "classes": {
+        "Bard": {
+          "level": 5,
+          "cost": 1,
+          "max-purchases": 1,
+          "frequency" : "1/Refresh"
         }
       }
     },
@@ -510,6 +665,20 @@
           "cost": 1,
           "max-purchases": "-",
           "frequency": "1/Refresh Charge x3"
+        }
+      }
+    },
+    {
+      "name": "Dragged Below",
+      "type": "Verbal",
+      "school": "Death",
+      "range": "20'",
+      "classes": {
+        "Wizard": {
+          "level": 3,
+          "cost": 1,
+          "max-purchases": "-",
+          "frequency" : "1/Refresh"
         }
       }
     },
